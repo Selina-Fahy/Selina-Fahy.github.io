@@ -1,11 +1,8 @@
 <!doctype html>
 
-
 	<html lang="en">
 
 		<head>
-	
-
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<meta charset="utf-8">	
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -14,71 +11,27 @@
 		
 			<h1><center>My Website</center></h1>
 
-
-		
-
-			<title>My web</title>
-	
-			
-			
+			<title>My web</title>			
 		</head>
-
-
-<div class="navbar">
-	<a href="index.html">Home</a>
-	<div class="dropdown">
-		<button class="dropbtn">Documents
-		<i class="fa fa-caret-down"></i>
-		</button>
-
-		<div class="dropdown-content">
-			<a href="Documents.html">Documents</a>
-			<a href="Documents.html">Document 2</a>
-			<a href="Documents.html">Year 2 Ethical Hacking Report</a>
-			<a href="Documents.html">Year 3 Ethical Hacking Report</a>
-			<a href="Documents.html">Year 3 Project Development Design & Planning</a>
-			<a href="Documents.html">Year 3 Project Development Design & Planning</a>
-			<a href="Documents.html">Year 3 Project Development Design & Planning</a>
-		</div>
-	</div>
-<!--	<div class="dropdown"> -->
-
-	<!--	<button class="dropbtn">Code
-		<i class="fa fa-caret-down"></i>
-		</button>
-
-		<div class="dropdown-content"> -->
-			<a href="">Code</a>
-		<!-- </div> -->
-<!--	</div> -->
-
-	<div class="dropdown">
-		<button class="dropbtn">Extras
-		<i class="fa fa-caret-down"></i>
-		</button>
-
-		<div class="dropdown-content">
-			<a href="">extras</a>
-			
-		</div>
-	</div>
-
-
-</div> 
+<?php>
+include_once("navbar.php");
+?>
 
 <body>
 
-<div class= "col-2"> <ul>
-<li> <!-- <img src= "https://webstockreview.net/images/kawaii-clipart-spider-1.png" id="p1"> --> </li></ul>
-</div>
- <br>
-	
+<div class= "col-2"> <!-- <ul>
+<li> <img src= "https://webstockreview.net/images/kawaii-clipart-spider-1.png" id="p1">  </li></ul> -->
+</div>	
 	<div class="col-8">
-<br>
+
 		<h1> Hello, My name is Selina! </h1> 
 		<h5> <p>I am currently a 3rd year Ethical Hacking student @ Abertay University</p> </h5> <br>
 
-		<p> Lorem ipsum dolor sit amet,
+		<p> I am currently a student at Abertay Univerity studying BSc Ethical Hacking degree. I currently live in London looking to gain experience in real world work as an ethical hacker.<br> 
+		Some of the languages that I have worked in are; C++, Python, HTML/JavaScript/CSS, and PHP. While I am currently learning Assembly. <br>
+		</p> 
+		<br>
+		<p>Lorem ipsum dolor sit amet,
 		consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
 		et dolore magna aliqua. Ut enim ad minim veniam, 
 		quis nostrud exercitation ullamco laboris nisi ut aliquip
