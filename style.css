@@ -2,20 +2,17 @@
 * {
 box-sizing: border-box;}
 
-
-<!-- td{ text-shadow: 0px 0px 0px #000000;} -->
-
-img {
-max-width: 100%;
-height: auto;
+body {
+  color: #66fcf1;
+  background-image: url("laptop shutting.jpg");
+ //url("https://images.unsplash.com/photo-1555626040-e1c570e4a213?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=950&q=80");	//https://images.unsplash.com/photo-1610663339673-5d63e1906ad2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=692&q=80");
+  //mix-blend-mode: difference;
+  //text-shadow: 0px 1px 10px #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-#p1
-{
-float: right;
-max-width: 13%;
-height: auto;
-}
-
 
 //inline
 iframe{
@@ -26,18 +23,8 @@ margin-right: auto;
 display: block;
 }
 
-.search {
-<!--  background-color: #000000; -->
-  text-shadow: 1px 0.5px #ffffff;
-  width: 300px;
-  border: 3px solid #000000;
-  padding: 10px;
-  margin: 10px;
-}
-
-
 h1{
-color: white;
+color: #66fcf1;
 <!-- text-shadow: 2px 2px #FF0000;-->
 }
 
@@ -49,8 +36,6 @@ text-align: center;
 .footer {
 position: 0;
 clear:both;
-<!--  background-color: #000001; -->
-<!--  color: #ff0000; -->
   text-align: center;
   font-size: 12px;
   padding: 15px;
@@ -64,11 +49,6 @@ width: 25%;
 padding: 5px;
 }
 
-.row::after {
-content: "";
-clear: both;
-diplay: table;
-}
 .menu ul {
   list-style-type: none;
 }
@@ -76,10 +56,7 @@ diplay: table;
 .menu li {
   paddng: 8px 10px;
   font-weight: bold;
-  background-color: black;
- <!-- color: #FF0000; -->
-<!--  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); -->
-<!--  text-shadow: 4px 4px 4px #000000; -->
+  background-color: #FFFFFF;
 }
 
 .menu li:hover {
@@ -88,22 +65,85 @@ diplay: table;
 .button{
 background-color: transparent;
 border: none;
-<!-- box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); -->
-<!-- color: red; -->
-}
-#tes {
-background-color: black;
-
 }
 
 [class*="col-"] {
 float: left;
 padding:1px;
 }
-.navbar{
-background-color: #000000;
+
+.navbar {
+background-color: #1F2833;
 text-align: centre;
 }
+
+.navbar a{
+  float: center;
+  color: #66fcf1;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+}
+.navbar a:hover {
+
+  background-color: #66fcf1;
+  color: black;
+}
+
+
+/* Nav bar Dropdown Button */
+.dropbtn {
+  background-color: #1F2833; /*EFDA7D;*/
+ /*Font*/ color: #66fcf1;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1F2833;
+  color: black;
+  min-width: 275px;
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #66fcf1;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block; color: black;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #66fcf1; color: black;}
+
+div.boxAttempt {
+background-color: #1F2833;
+opacity: 0.8;
+width: auto;
+border: 2px solid white;
+padding 50px;
+margin: 0px;
+}
+
 
 
 /*Mobile*/
@@ -140,96 +180,7 @@ width:100%;
 .col-12 {width: 100%;}
 }
 
-body {
-color: white;
-background-image: url("https://images.unsplash.com/photo-1610663339673-5d63e1906ad2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=692&q=80");
-//mix-blend-mode: difference;
-text-shadow: 0px 1px 10px #000000;
-background-size: cover;
-background-repeat: no-repeat;
 
-}
-.navbar a{
-  font-weight: bold;
-  float: center;
-  font-size: 17px;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 11px;
-<!--  text-shadow: 2px 2px 4px #ffffff;-->
-  text-decoration: none;
-}
-.navbar a:hover {
-
-  background-color: #000000;
-}
-
-
-/* Dropdown Button */
-.dropbtn {
-  font-weight: bold;
-  background-color: #000000; /*EFDA7D;*/
-  color: #FFFFFF;
-  padding: 12px;
-<!--  text-shadow: 2px 2px 4px #ffffff; -->
-  font-size: 16px;
-  border: none;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #000000; /*EFDA7D;*/
-  min-width: 275px;
-  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-<!--  color: red; -->
-  padding: 12px 20px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #FBB3A4;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: black;}
-
-.modal
-{
-display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
-}
-
-.modal-content
-{
- background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 100%; /* Could be more or less, depending on screen size */
-}
 .animate {
   -webkit-animation: animatezoom 0.6s;
   animation: animatezoom 0.6s
@@ -237,30 +188,4 @@ display: none; /* Hidden by default */
 @-webkit-keyframes animatezoom {
   from {-webkit-transform: scale(0)} 
   to {-webkit-transform: scale(1)}
-}
-
-.container
-{
-position: relative;
-text-align: center;
-}
-.bottom-left
-{
-position: absolute;
-bottom:8px;
-left: 16px;
-}
-
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
 }
